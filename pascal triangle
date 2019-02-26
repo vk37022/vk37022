@@ -1,0 +1,8 @@
+a=int(input())
+for i in range(a):
+    print(" "*(a-i-1),end="")
+    n=1
+    for j in range(i):
+        print(n,end=" ")
+        n=n*(i-j)//(j+1)
+    print('1',end='\n')
